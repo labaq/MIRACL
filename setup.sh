@@ -8,7 +8,7 @@ cd miracl/
 wget https://github.com/CertiVox/MIRACL/archive/master.zip
 unzip -j -aa -L master.zip
 bash linux64
-cd
+cd ..
 gcc rigolkey.c -I ./miracl/ ./miracl/miracl.a -o rigolkey
 
 echo "Finished ..."
